@@ -443,7 +443,7 @@ export default function App() {
           <nav className="hidden md:flex items-center space-x-1">
             {[
               { id: 'dashboard', label: 'Dashboard', icon: Layers },
-              { id: 'create-ticket', label: 'New Ticket', icon: Zap },
+              { id: 'create-ticket', label: 'Ticket', icon: Zap },
               { id: 'kb', label: 'Knowledge Intelligence', icon: FileText },
               { id: 'analytics', label: 'Analytics', icon: BarChart3 },
             ].map((nav) => {
